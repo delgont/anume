@@ -1,0 +1,45 @@
+{
+    "name": "delgont/anume",
+    "description" : "Alice Anume Website Delgont Cms Plugin",
+    "keywords": [
+        "Laravel CMS",
+        "laravel", 
+        "Content Management System"
+    ],
+    "homepage": "https://github.com/delgont/anume",
+    "type" : "library",
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name" : "Stephen Okello Omoding",
+            "email" : "okellostephenomoding@gmail.com",
+            "role" : "Developer"
+        }
+    ],
+    "require": {
+        "delgont/cms": "^1.0.0"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Delgont\\Anume\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Delgont\\Anume\\Test\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Delgont\\Anume\\AnumeServiceProvider"
+
+            ]
+        }
+    }
+}
