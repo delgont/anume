@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "delgont/cms": "^1.0.0"
+        "delgont/cms": "^1.2.0"
     },
     "prefer-stable": true,
     "minimum-stability": "dev",
