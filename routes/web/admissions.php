@@ -4,6 +4,9 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/'.option('aamsnm_online_application_prefix', 'online-application'), function(){
- return 'applications main page';
+use Delgont\Cms\Repository\Menu\MenuRepository;
+
+
+Route::get('/online-application', function(){
+    return app( MenuRepository::class )->fromCache()->menuItems('main_menu', 4);
 })->name('anume.web.admissions.apply');

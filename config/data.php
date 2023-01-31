@@ -35,11 +35,6 @@ return [
             'post_type' => 'page'
         ],
         [
-            'post_title' => 'home slider item',
-            'post_featured_image' => 'img/header/header.jpg',
-            'post_type' => 'page'
-        ],
-        [
             'post_title' => 'how to apply',
             'post_featured_image' => 'img/header/header.jpg',
             'post_content' => '
@@ -76,6 +71,7 @@ return [
             'post_type' => 'page',
             'template' => 'web.templates.default-page'
         ],
+        [
             'post_type' => 'course',
             'post_featured_image' => 'img/header/header.jpg',
             'extract_text' => 'Duration: 2 and half years, O Level certicate completed not more than 3 years, Pass in englisg, Mathematics and Biology and Must be 18 years and above',
@@ -107,6 +103,6 @@ return [
             'post_content' => '<h4>Duration: 1 and half years</h4><h5>Entry Requirements</h5><p>2 years work experience as a nurse, Principal pass in Biology</p>',
             'slug' => 'academic-programs/diploma-in-nursing-extension'
         ]
-    ],
+    ]
 
 ];

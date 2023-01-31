@@ -55,6 +55,7 @@ class InstallCommand extends Command
         $this->info('Publishing Publishables');
         $this->call('vendor:publish', ['--tag' => 'anume-web-config', '--force' => $fresh]);
         $this->call('vendor:publish', ['--tag' => 'anume-data-config', '--force' => $fresh]);
+        $this->call('vendor:publish', ['--tag' => 'anume-assets', '--force' => $fresh]);
 
         //Sychronising Templates
         $this->call('template:sync');

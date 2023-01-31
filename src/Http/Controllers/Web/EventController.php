@@ -5,7 +5,7 @@ namespace Delgont\Anume\Http\Controllers\Web;
 use Delgont\Anume\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-use App\Repository\Event\EventRepository;
+use Delgont\Anume\Repository\Event\EventRepository;
 
 class EventController extends Controller
 {

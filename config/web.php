@@ -123,7 +123,6 @@ return [
     'templates' => [
         'web.templates.team-member-page' => ['name' => 'Team Member Page', 'preview' => 'img/templates/home-page.png', 'description' => 'Shows a single team member and other team members'],
         'web.templates.faqs-page' => ['name' => 'FAQs', 'preview' => 'img/templates/home-page.png', 'description' => 'Shows frequently asked questions'],
-        'web.index' => ['name' => 'Home Page', 'preview' => 'img/templates/home-page.png', 'description' => 'Home Page Template'],
         'web.templates.default-page' => ['name' => 'Default Page', 'preview' => 'img/templates/home-page.png', 'description' => 'Shows page content and posts of specific type if specified'],
         'web.templates.news-page' => ['name' => 'News Page', 'preview' => 'img/templates/home-page.png', 'description' => 'Shows single news article'],
         'web.templates.news-feed-page' => ['name' => 'News Feed Page', 'preview' => 'img/templates/home-page.png', 'description' => 'Shows latest news'],
